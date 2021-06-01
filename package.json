@@ -1,13 +1,14 @@
 {
-  "name": "reactportfolio",
+  "name": "conorobrienportfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://obrienceob.github.io/ConorOBrienPortfolio",
   "proxy": "http://localhost:3000",
+  "homepage": "https://obrienceob.github.io/ConorOBrienPortfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^5.0.1",
     "gh-pages": "^3.2.0",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
