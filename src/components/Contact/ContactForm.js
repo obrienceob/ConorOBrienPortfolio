@@ -18,7 +18,7 @@ export default class ContactForm extends React.Component {
                     <h3 id="contactFormHeader">Let's connect!</h3>
                     <form
                         onSubmit={this.submitForm}
-                        action="https://formspree.io/xyyddneo"
+                        action="https://formspree.io/f/xoqydnbr"
                         method="POST"
                         id="contactForm"
                     >
