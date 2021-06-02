@@ -1,4 +1,4 @@
-## React Google Books Search
+## Conor O'Brien Portfolio
 
 My updated portfolio built with React. Here you can learn about me and see some of my coding projects
 
