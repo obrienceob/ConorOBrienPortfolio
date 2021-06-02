@@ -11,7 +11,13 @@
     color: #333333;
     line-height: .6rem;
     width: 100%;
-    padding-left: 0.625rem;
+    padding-left: .3rem;
+}
+
+.cardName {
+    color: #333333;
+    line-height: .6rem;
+    width: 100%;
 }
 
 a:link{

@@ -12,36 +12,56 @@ class CodeBlock extends Component {
                             <h3 className="bodyHeader">Projects</h3>
                         </div>
                         <div className="cardWrapper">
-                            <a href="https://github.com/obrienceob/BookSearch" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
                                     <img className="cardImage" src={context[0].image} alt="Project One: Google Books Search" />
                                     <div className="cardText">
-                                        <p className="cardName">Google Books Search</p>
+                                        <a href="https://github.com/obrienceob/BookSearch" target="_blank" rel="noopener noreferrer">
+                                        <div className="cardText">    
+                                            <p className="cardName">Google Books Search</p>
+                                        </div>
+                                        </a>
+                                        <a href="https://fathomless-dawn-44103.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                        <div className="cardText">
+                                            <p className="cardName">Link to deployed App</p>
+                                        </div>
+                                        </a>
                                         <p className="cardTags">MongoDB, Express, React, Node</p>
                                     </div>
                                 </div>
-
-                            </a>
-                            <a href="https://github.com/obrienceob/TechBlog" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
-                                    <img className="cardImage" src={context[1].image} alt="Project Two: Tech Blog" />
+                                    <img className="cardImage" src={context[1].image} alt="Project One: Google Books Search" />
                                     <div className="cardText">
-                                        <p className="cardName">Tech Blog</p>
+                                        <a href="https://github.com/obrienceob/TechBlog" target="_blank" rel="noopener noreferrer">
+                                        <div className="cardText">    
+                                            <p className="cardName">Tech Blog</p>
+                                        </div>
+                                        </a>
+                                        <a href="https://stark-mesa-75769.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                                        <div className="cardText">
+                                            <p className="cardName">Link to deployed App</p>
+                                        </div>
+                                        </a>
                                         <p className="cardTags">MVC, SQL, Hanlebars, JS</p>
                                     </div>
-                                </div>
-                            </a>
-                            <a href="https://github.com/obrienceob/Employee-Directory" target="_blank" rel="noopener noreferrer">
+                                </div>   
                                 <div className="card homeCard grow">
-                                    <img className="cardImage" src={context[2].image} alt="Project Three: Employee Directory" />
+                                    <img className="cardImage" src={context[2].image} alt="Project One: Google Books Search" />
                                     <div className="cardText">
-                                        <p className="cardName">Employee Directory</p>
+                                        <a href="https://github.com/obrienceob/Employee-Directory" target="_blank" rel="noopener noreferrer">
+                                        <div className="cardText">    
+                                            <p className="cardName">Employee Directory</p>
+                                        </div>
+                                        </a>
+                                        <a href="https://obrienceob.github.io/Employee-Directory/" target="_blank" rel="noopener noreferrer">
+                                        <div className="cardText">
+                                            <p className="cardName">Link to deployed App</p>
+                                        </div>
+                                        </a>
                                         <p className="cardTags">React, API, Bootstrap</p>
                                     </div>
-                                </div>
-                            </a>
-                        </div>
+                                </div>          
                     </div>
+                </div>
                 )}
             </HomeContext.Consumer>
         )
