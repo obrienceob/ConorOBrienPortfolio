@@ -11,7 +11,7 @@ import "./style.css"
 function Skills() {
     return (
         <div className="container">
-            <h3 className="centerText" id="aboutSectionHeader">Core Skills</h3>
+            <h3 className="centerText" id="aboutSectionHeader">Skills</h3>
             <div className="d-flex justify-content-center">
                 <div className="skillsIconContainer">
                 <img src={ReactLogo} alt="React" className="skillsIcon iconOne"></img>
